@@ -32,7 +32,7 @@ public class Instrumenter {
     /**
      * Prints the name of the methods in the jar file that call some method in the dependency.
      *
-     * @param pathToJar path to the jar file that is going to be analyzed
+     * @param pathToJar     path to the jar file that is going to be analyzed
      * @param dependencyPkg fully qualified name of the packaged dependency
      * @throws IOException if the jar file is missing
      */
@@ -43,7 +43,6 @@ public class Instrumenter {
             JarEntry entry = entries.nextElement();
             String entryName = entry.getName();
             if (entryName.endsWith(".class")) {
-                System.out.println("Class: " + entryName);
                 DependencyTree dt = new DependencyTree();
                 InputStream classFileInputStream = jarFile.getInputStream(entry);
                 try {
@@ -63,7 +62,10 @@ public class Instrumenter {
                     methodsCalled.get(entryName).add(dt);
                 }
 
-                dt.printDependencyTree();
+                if (!dt.getDependencies().isEmpty()) {
+                    System.out.println("Class: " + entryName);
+                    dt.printDependencyTree();
+                }
 
             }
         }
