@@ -18,7 +18,7 @@ public class DependencyTree {
 
     public void printDependencyTree(){
         for (Map.Entry<String, List<String>> entry : dt.entrySet()) {
-            System.out.println("Class used: " + entry.getKey() + "  Methods used: " + entry.getValue());
+            System.out.println("\tClass used: " + entry.getKey() + "  Methods used: " + entry.getValue());
         }
     }
 }
