@@ -20,6 +20,5 @@ public class InstrumenterTest {
     public void checkThatIsNotNull() throws IOException {
         inst.printDependencies("src/main/resources/descartes-1.2.4.jar", "org/pitest");
         assertNotNull(inst.getMethodsCalled());
-
     }
 }
