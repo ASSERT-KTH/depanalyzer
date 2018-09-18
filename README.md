@@ -9,10 +9,10 @@ java -jar Dep-analyzer-1.0-SNAPSHOT-jar-with-dependencies.jar "path to the jar f
 
 ### Example
 
-**Input:**
+**Input:**  
 java -jar Dep-analyzer-1.0-SNAPSHOT-jar-with-dependencies.jar src/main/resources/descartes-1.2.4.jar org/pitest
 
-**Output:**
+**Output:**  
 ```
 Class: eu/stamp_project/mutationtest/descartes/reporting/JSONReportFactory.class
 	Class used: org/pitest/mutationtest/ListenerArguments    Methods used: [getStartTime, getEngine, getOutputStrategy]
