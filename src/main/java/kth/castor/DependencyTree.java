@@ -6,13 +6,13 @@ import java.util.TreeMap;
 
 public class DependencyTree {
 
-    TreeMap<String, List<String>> dt;
+    Map<String, List<String>> dt;
 
     public DependencyTree() {
         this.dt = new TreeMap<>();
     }
 
-    public TreeMap<String, List<String>> getDependencies() {
+    public Map<String, List<String>> getDependencies() {
         return dt;
     }
 
