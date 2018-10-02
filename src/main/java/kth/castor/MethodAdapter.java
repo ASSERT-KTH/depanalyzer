@@ -17,9 +17,7 @@ class MethodAdapter extends MethodVisitor implements Opcodes {
         this.dt = dt;
     }
 
-    @Override
-    public void visitMethodInsn(int opcode, String owner, String name, String desc, boolean itf) {
-
+    public void processUsage( final String owner, final String name, final String descriptor) {
         if (owner.startsWith(dependencyPkg)) {
             if (!dt.getDependencies().containsKey(owner)) {
                 List list = new ArrayList<String>();
@@ -29,8 +27,17 @@ class MethodAdapter extends MethodVisitor implements Opcodes {
                 dt.getDependencies().get(owner).add(name);
             }
         }
+    }
 
-        // do call
-        mv.visitMethodInsn(opcode, owner, name, desc, itf);
+    @Override
+    public void visitFieldInsn(final int opcode, final String owner, final String name, final String descriptor) {
+        processUsage(owner, name, descriptor);
+        mv.visitFieldInsn(opcode, owner, name, descriptor);
+    }
+
+    @Override
+    public void visitMethodInsn(int opcode, String owner, String name, final String descriptor, boolean itf) {
+        processUsage(owner, name, descriptor);
+        mv.visitMethodInsn(opcode, owner, name, descriptor, itf);
     }
 }
