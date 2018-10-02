@@ -24,7 +24,7 @@ public class InstrumenterTest {
 
     @Test
     public void check() throws IOException {
-        inst.printDependencies("src/test/resources/uselib/target/uselib-1.0-SNAPSHOT.jar", "se.kth.castor.types");
+        inst.printDependencies("src/test/resources/uselib/target/uselib-1.0-SNAPSHOT.jar", "se/kth/castor/types");
         assertNotNull(inst.getMethodsCalled());
     }
 }
