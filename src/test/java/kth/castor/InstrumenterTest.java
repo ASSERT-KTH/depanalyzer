@@ -21,4 +21,10 @@ public class InstrumenterTest {
         inst.printDependencies("src/main/resources/descartes-1.2.4.jar", "org/pitest");
         assertNotNull(inst.getMethodsCalled());
     }
+
+    @Test
+    public void check() throws IOException {
+        inst.printDependencies("src/test/resources/uselib/target/uselib-1.0-SNAPSHOT.jar", "se.kth.castor.types");
+        assertNotNull(inst.getMethodsCalled());
+    }
 }
