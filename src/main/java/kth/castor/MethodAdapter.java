@@ -18,13 +18,14 @@ class MethodAdapter extends MethodVisitor implements Opcodes {
     }
 
     public void processUsage( final String owner, final String name, final String descriptor) {
+        String sig = getSignature(name,descriptor);
         if (owner.startsWith(dependencyPkg)) {
             if (!dt.getDependencies().containsKey(owner)) {
                 List list = new ArrayList<String>();
-                list.add(name);
+                list.add(sig);
                 dt.getDependencies().put(owner, list);
-            } else if (!dt.getDependencies().get(owner).contains(name)) {
-                dt.getDependencies().get(owner).add(name);
+            } else if (!dt.getDependencies().get(owner).contains(sig)) {
+                dt.getDependencies().get(owner).add(sig);
             }
         }
     }
@@ -39,5 +40,9 @@ class MethodAdapter extends MethodVisitor implements Opcodes {
     public void visitMethodInsn(int opcode, String owner, String name, final String descriptor, boolean itf) {
         processUsage(owner, name, descriptor);
         mv.visitMethodInsn(opcode, owner, name, descriptor, itf);
+    }
+
+    public static String getSignature(String name, String desc) {
+        return name + desc;
     }
 }

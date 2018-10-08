@@ -1,0 +1,721 @@
+[
+	{"className": "se.kth.castor.created.UseAbs", "uses": [
+		{ "usedType": "se.kth.castor.types.Abs", "usedElements": [
+			"<init>()"
+		]},
+		{ "usedType": "se.kth.castor.types.ImplInter", "usedElements": [
+			"<init>()"
+		]},
+		{ "usedType": "se.kth.castor.types.ImplAbs", "usedElements": [
+			"<init>()"
+		]}
+	]},
+	{"className": "se.kth.castor.user.AbsSimpleDecl7", "uses": [
+		{ "usedType": "se.kth.castor.types.ImplInter", "usedElements": [
+			"<init>()",
+			"getAbs()"
+		]}
+	]},
+	{"className": "se.kth.castor.user.AbsSimpleDecl5", "uses": [
+		{ "usedType": "se.kth.castor.types.Abs", "usedElements": [
+			"defAbs()"
+		]},
+		{ "usedType": "se.kth.castor.types.ImplAbs", "usedElements": [
+			"<init>()"
+		]}
+	]},
+	{"className": "se.kth.castor.user.AbsSimpleDecl6", "uses": [
+		{ "usedType": "se.kth.castor.types.ImplAbs", "usedElements": [
+			"<init>()",
+			"absAbs()"
+		]}
+	]},
+	{"className": "se.kth.castor.user.InterParam0", "uses": [
+		{ "usedType": "se.kth.castor.types.Inter", "usedElements": [
+			"getString()"
+		]}
+	]},
+	{"className": "se.kth.castor.user.InterParam1", "uses": [
+		{ "usedType": "se.kth.castor.types.Inter", "usedElements": [
+			"getAbs()"
+		]}
+	]},
+	{"className": "se.kth.castor.user.InterParam2", "uses": [
+		{ "usedType": "se.kth.castor.types.Inter", "usedElements": [
+			"getInter()"
+		]}
+	]},
+	{"className": "se.kth.castor.user.InterParam3", "uses": [
+		{ "usedType": "se.kth.castor.types.Inter", "usedElements": [
+			"getConcrete()"
+		]}
+	]},
+	{"className": "se.kth.castor.user.AbsSimpleDecl0", "uses": [
+		{ "usedType": "se.kth.castor.types.Helper", "usedElements": [
+			"publicAbs()"
+		]}
+	]},
+	{"className": "se.kth.castor.user.AbsSimpleDecl3", "uses": [
+		{ "usedType": "se.kth.castor.types.Helper", "usedElements": [
+			"myPublicImplAbs"
+		]}
+	]},
+	{"className": "se.kth.castor.user.AbsSimpleDecl4", "uses": [
+		{ "usedType": "se.kth.castor.types.ImplAbs", "usedElements": [
+			"<init>()"
+		]}
+	]},
+	{"className": "se.kth.castor.user.AbsSimpleDecl1", "uses": [
+		{ "usedType": "se.kth.castor.types.Helper", "usedElements": [
+			"publicImplAbs()"
+		]}
+	]},
+	{"className": "se.kth.castor.user.AbsSimpleDecl2", "uses": [
+		{ "usedType": "se.kth.castor.types.Helper", "usedElements": [
+			"myPublicAbs"
+		]}
+	]},
+	{"className": "se.kth.castor.user.ImplAbsSimpleDecl0", "uses": [
+		{ "usedType": "se.kth.castor.types.Helper", "usedElements": [
+			"publicImplAbs()"
+		]}
+	]},
+	{"className": "se.kth.castor.user.ImplAbsSimpleDecl2", "uses": [
+		{ "usedType": "se.kth.castor.types.ImplAbs", "usedElements": [
+			"<init>()"
+		]}
+	]},
+	{"className": "se.kth.castor.user.ImplAbsSimpleDecl1", "uses": [
+		{ "usedType": "se.kth.castor.types.Helper", "usedElements": [
+			"myPublicImplAbs"
+		]}
+	]},
+	{"className": "se.kth.castor.user.ObjectSimpleCall0", "uses": [
+		{ "usedType": "se.kth.castor.types.Helper", "usedElements": [
+			"publicAbs()"
+		]}
+	]},
+	{"className": "se.kth.castor.user.ObjectSimpleCall1", "uses": [
+		{ "usedType": "se.kth.castor.types.Helper", "usedElements": [
+			"publicAbs()"
+		]}
+	]},
+	{"className": "se.kth.castor.user.ConcreteSimpleCall0", "uses": [
+		{ "usedType": "se.kth.castor.types.Concrete", "usedElements": [
+			"<init>()"
+		]}
+	]},
+	{"className": "se.kth.castor.user.AbsParam7", "uses": [
+		{ "usedType": "se.kth.castor.types.Abs", "usedElements": [
+			"absImplInter()"
+		]}
+	]},
+	{"className": "se.kth.castor.user.AbsParam6", "uses": [
+		{ "usedType": "se.kth.castor.types.Abs", "usedElements": [
+			"defImplInter()"
+		]}
+	]},
+	{"className": "se.kth.castor.user.AbsParam5", "uses": [
+		{ "usedType": "se.kth.castor.types.Abs", "usedElements": [
+			"absInter()"
+		]}
+	]},
+	{"className": "se.kth.castor.user.AbsParam4", "uses": [
+		{ "usedType": "se.kth.castor.types.Abs", "usedElements": [
+			"defInter()"
+		]}
+	]},
+	{"className": "se.kth.castor.user.AbsParam3", "uses": [
+		{ "usedType": "se.kth.castor.types.Abs", "usedElements": [
+			"absAbs()"
+		]}
+	]},
+	{"className": "se.kth.castor.user.AbsParam2", "uses": [
+		{ "usedType": "se.kth.castor.types.Abs", "usedElements": [
+			"defAbs()"
+		]}
+	]},
+	{"className": "se.kth.castor.user.AbsParam1", "uses": [
+		{ "usedType": "se.kth.castor.types.Abs", "usedElements": [
+			"absString()"
+		]}
+	]},
+	{"className": "se.kth.castor.user.AbsParam0", "uses": [
+		{ "usedType": "se.kth.castor.types.Abs", "usedElements": [
+			"defString()"
+		]}
+	]},
+	{"className": "se.kth.castor.user.ObjectSimpleDecl5", "uses": [
+		{ "usedType": "se.kth.castor.types.Abs", "usedElements": [
+			"defAbs()"
+		]},
+		{ "usedType": "se.kth.castor.types.ImplAbs", "usedElements": [
+			"<init>()"
+		]}
+	]},
+	{"className": "se.kth.castor.user.ObjectSimpleDecl4", "uses": [
+		{ "usedType": "se.kth.castor.types.ImplAbs", "usedElements": [
+			"<init>()"
+		]}
+	]},
+	{"className": "se.kth.castor.user.ObjectSimpleDecl3", "uses": [
+		{ "usedType": "se.kth.castor.types.Helper", "usedElements": [
+			"myPublicImplAbs"
+		]}
+	]},
+	{"className": "se.kth.castor.user.ObjectSimpleDecl2", "uses": [
+		{ "usedType": "se.kth.castor.types.Helper", "usedElements": [
+			"myPublicAbs"
+		]}
+	]},
+	{"className": "se.kth.castor.user.ObjectSimpleDecl7", "uses": [
+		{ "usedType": "se.kth.castor.types.ImplInter", "usedElements": [
+			"<init>()",
+			"getAbs()"
+		]}
+	]},
+	{"className": "se.kth.castor.user.ObjectSimpleDecl6", "uses": [
+		{ "usedType": "se.kth.castor.types.ImplAbs", "usedElements": [
+			"<init>()",
+			"absAbs()"
+		]}
+	]},
+	{"className": "se.kth.castor.user.ImplAbsSimpleCall2", "uses": [
+		{ "usedType": "se.kth.castor.types.Helper", "usedElements": [
+			"publicImplAbs()"
+		]},
+		{ "usedType": "se.kth.castor.types.Abs", "usedElements": [
+			"defAbs()"
+		]}
+	]},
+	{"className": "se.kth.castor.user.ImplAbsSimpleCall1", "uses": [
+		{ "usedType": "se.kth.castor.types.Helper", "usedElements": [
+			"publicImplAbs()"
+		]},
+		{ "usedType": "se.kth.castor.types.ImplAbs", "usedElements": [
+			"absString()"
+		]}
+	]},
+	{"className": "se.kth.castor.user.ImplAbsSimpleCall4", "uses": [
+		{ "usedType": "se.kth.castor.types.Helper", "usedElements": [
+			"publicImplAbs()"
+		]},
+		{ "usedType": "se.kth.castor.types.Abs", "usedElements": [
+			"defInter()"
+		]}
+	]},
+	{"className": "se.kth.castor.user.ImplAbsSimpleCall3", "uses": [
+		{ "usedType": "se.kth.castor.types.Helper", "usedElements": [
+			"publicImplAbs()"
+		]},
+		{ "usedType": "se.kth.castor.types.ImplAbs", "usedElements": [
+			"absAbs()"
+		]}
+	]},
+	{"className": "se.kth.castor.user.ObjectSimpleDecl1", "uses": [
+		{ "usedType": "se.kth.castor.types.Helper", "usedElements": [
+			"publicImplAbs()"
+		]}
+	]},
+	{"className": "se.kth.castor.user.ImplAbsSimpleCall6", "uses": [
+		{ "usedType": "se.kth.castor.types.Helper", "usedElements": [
+			"publicImplAbs()"
+		]},
+		{ "usedType": "se.kth.castor.types.Abs", "usedElements": [
+			"defImplInter()"
+		]}
+	]},
+	{"className": "se.kth.castor.user.ObjectSimpleDecl0", "uses": [
+		{ "usedType": "se.kth.castor.types.Helper", "usedElements": [
+			"publicAbs()"
+		]}
+	]},
+	{"className": "se.kth.castor.user.ImplAbsSimpleCall5", "uses": [
+		{ "usedType": "se.kth.castor.types.Helper", "usedElements": [
+			"publicImplAbs()"
+		]},
+		{ "usedType": "se.kth.castor.types.ImplAbs", "usedElements": [
+			"absInter()"
+		]}
+	]},
+	{"className": "se.kth.castor.user.ImplAbsSimpleCall8", "uses": [
+		{ "usedType": "se.kth.castor.types.Helper", "usedElements": [
+			"publicImplAbs()"
+		]}
+	]},
+	{"className": "se.kth.castor.user.ImplAbsSimpleCall7", "uses": [
+		{ "usedType": "se.kth.castor.types.Helper", "usedElements": [
+			"publicImplAbs()"
+		]},
+		{ "usedType": "se.kth.castor.types.ImplAbs", "usedElements": [
+			"absImplInter()"
+		]}
+	]},
+	{"className": "se.kth.castor.user.ImplAbsSimpleCall0", "uses": [
+		{ "usedType": "se.kth.castor.types.Helper", "usedElements": [
+			"publicImplAbs()"
+		]},
+		{ "usedType": "se.kth.castor.types.Abs", "usedElements": [
+			"defString()"
+		]}
+	]},
+	{"className": "se.kth.castor.user.InterSimpleDecl0", "uses": [
+		{ "usedType": "se.kth.castor.types.Helper", "usedElements": [
+			"publicInter()"
+		]}
+	]},
+	{"className": "se.kth.castor.user.InterSimpleDecl1", "uses": [
+		{ "usedType": "se.kth.castor.types.Helper", "usedElements": [
+			"publicImplInter()"
+		]}
+	]},
+	{"className": "se.kth.castor.user.InterSimpleDecl2", "uses": [
+		{ "usedType": "se.kth.castor.types.Helper", "usedElements": [
+			"myPublicInter"
+		]}
+	]},
+	{"className": "se.kth.castor.user.InterSimpleDecl3", "uses": [
+		{ "usedType": "se.kth.castor.types.Helper", "usedElements": [
+			"myPublicImplInter"
+		]}
+	]},
+	{"className": "se.kth.castor.user.InterSimpleDecl4", "uses": [
+		{ "usedType": "se.kth.castor.types.ImplInter", "usedElements": [
+			"<init>()"
+		]}
+	]},
+	{"className": "se.kth.castor.user.InterSimpleDecl5", "uses": [
+		{ "usedType": "se.kth.castor.types.Abs", "usedElements": [
+			"defInter()"
+		]},
+		{ "usedType": "se.kth.castor.types.ImplAbs", "usedElements": [
+			"<init>()"
+		]}
+	]},
+	{"className": "se.kth.castor.user.InterSimpleDecl6", "uses": [
+		{ "usedType": "se.kth.castor.types.ImplAbs", "usedElements": [
+			"absInter()",
+			"<init>()"
+		]}
+	]},
+	{"className": "se.kth.castor.user.InterSimpleDecl7", "uses": [
+		{ "usedType": "se.kth.castor.types.ImplInter", "usedElements": [
+			"<init>()",
+			"getInter()"
+		]}
+	]},
+	{"className": "se.kth.castor.user.ImplAbsReturn0", "uses": [
+		{ "usedType": "se.kth.castor.types.Helper", "usedElements": [
+			"publicImplAbs()"
+		]}
+	]},
+	{"className": "se.kth.castor.user.ConcreteSimpleDecl0", "uses": [
+		{ "usedType": "se.kth.castor.types.Concrete", "usedElements": [
+			"<init>()"
+		]}
+	]},
+	{"className": "se.kth.castor.user.ConcreteReturn0", "uses": [
+		{ "usedType": "se.kth.castor.types.Concrete", "usedElements": [
+			"<init>()"
+		]}
+	]},
+	{"className": "se.kth.castor.user.ImplInterSimpleCall4", "uses": [
+		{ "usedType": "se.kth.castor.types.Helper", "usedElements": [
+			"publicImplInter()"
+		]}
+	]},
+	{"className": "se.kth.castor.user.ImplInterSimpleCall3", "uses": [
+		{ "usedType": "se.kth.castor.types.Helper", "usedElements": [
+			"publicImplInter()"
+		]},
+		{ "usedType": "se.kth.castor.types.ImplInter", "usedElements": [
+			"getConcrete()"
+		]}
+	]},
+	{"className": "se.kth.castor.user.ImplInterSimpleCall2", "uses": [
+		{ "usedType": "se.kth.castor.types.Helper", "usedElements": [
+			"publicImplInter()"
+		]},
+		{ "usedType": "se.kth.castor.types.ImplInter", "usedElements": [
+			"getInter()"
+		]}
+	]},
+	{"className": "se.kth.castor.user.ImplInterSimpleCall1", "uses": [
+		{ "usedType": "se.kth.castor.types.Helper", "usedElements": [
+			"publicImplInter()"
+		]},
+		{ "usedType": "se.kth.castor.types.ImplInter", "usedElements": [
+			"getAbs()"
+		]}
+	]},
+	{"className": "se.kth.castor.user.ImplInterSimpleCall0", "uses": [
+		{ "usedType": "se.kth.castor.types.Helper", "usedElements": [
+			"publicImplInter()"
+		]},
+		{ "usedType": "se.kth.castor.types.ImplInter", "usedElements": [
+			"getString()"
+		]}
+	]},
+	{"className": "se.kth.castor.user.ImplAbsReturn2", "uses": [
+		{ "usedType": "se.kth.castor.types.ImplAbs", "usedElements": [
+			"<init>()"
+		]}
+	]},
+	{"className": "se.kth.castor.user.ImplAbsReturn1", "uses": [
+		{ "usedType": "se.kth.castor.types.Helper", "usedElements": [
+			"myPublicImplAbs"
+		]}
+	]},
+	{"className": "se.kth.castor.user.UseAnnoReturn0", "uses": [
+		{ "usedType": "se.kth.castor.types.UseAnno", "usedElements": [
+			"<init>()"
+		]}
+	]},
+	{"className": "se.kth.castor.user.InterReturn7", "uses": [
+		{ "usedType": "se.kth.castor.types.ImplInter", "usedElements": [
+			"<init>()",
+			"getInter()"
+		]}
+	]},
+	{"className": "se.kth.castor.user.InterReturn3", "uses": [
+		{ "usedType": "se.kth.castor.types.Helper", "usedElements": [
+			"myPublicImplInter"
+		]}
+	]},
+	{"className": "se.kth.castor.user.InterReturn4", "uses": [
+		{ "usedType": "se.kth.castor.types.ImplInter", "usedElements": [
+			"<init>()"
+		]}
+	]},
+	{"className": "se.kth.castor.user.InterReturn5", "uses": [
+		{ "usedType": "se.kth.castor.types.Abs", "usedElements": [
+			"defInter()"
+		]},
+		{ "usedType": "se.kth.castor.types.ImplAbs", "usedElements": [
+			"<init>()"
+		]}
+	]},
+	{"className": "se.kth.castor.user.InterReturn6", "uses": [
+		{ "usedType": "se.kth.castor.types.ImplAbs", "usedElements": [
+			"absInter()",
+			"<init>()"
+		]}
+	]},
+	{"className": "se.kth.castor.user.InterReturn0", "uses": [
+		{ "usedType": "se.kth.castor.types.Helper", "usedElements": [
+			"publicInter()"
+		]}
+	]},
+	{"className": "se.kth.castor.user.InterReturn1", "uses": [
+		{ "usedType": "se.kth.castor.types.Helper", "usedElements": [
+			"publicImplInter()"
+		]}
+	]},
+	{"className": "se.kth.castor.user.InterReturn2", "uses": [
+		{ "usedType": "se.kth.castor.types.Helper", "usedElements": [
+			"myPublicInter"
+		]}
+	]},
+	{"className": "se.kth.castor.user.ImplInterReturn2", "uses": [
+		{ "usedType": "se.kth.castor.types.ImplInter", "usedElements": [
+			"<init>()"
+		]}
+	]},
+	{"className": "se.kth.castor.user.ImplInterParam1", "uses": [
+		{ "usedType": "se.kth.castor.types.ImplInter", "usedElements": [
+			"getAbs()"
+		]}
+	]},
+	{"className": "se.kth.castor.user.ImplInterParam0", "uses": [
+		{ "usedType": "se.kth.castor.types.ImplInter", "usedElements": [
+			"getString()"
+		]}
+	]},
+	{"className": "se.kth.castor.user.ImplInterReturn1", "uses": [
+		{ "usedType": "se.kth.castor.types.Helper", "usedElements": [
+			"myPublicImplInter"
+		]}
+	]},
+	{"className": "se.kth.castor.user.ImplInterParam3", "uses": [
+		{ "usedType": "se.kth.castor.types.ImplInter", "usedElements": [
+			"getConcrete()"
+		]}
+	]},
+	{"className": "se.kth.castor.user.ImplInterReturn0", "uses": [
+		{ "usedType": "se.kth.castor.types.Helper", "usedElements": [
+			"publicImplInter()"
+		]}
+	]},
+	{"className": "se.kth.castor.user.ImplInterParam2", "uses": [
+		{ "usedType": "se.kth.castor.types.ImplInter", "usedElements": [
+			"getInter()"
+		]}
+	]},
+	{"className": "se.kth.castor.user.ImplInterSimpleDecl2", "uses": [
+		{ "usedType": "se.kth.castor.types.ImplInter", "usedElements": [
+			"<init>()"
+		]}
+	]},
+	{"className": "se.kth.castor.user.UseAnnoSimpleDecl0", "uses": [
+		{ "usedType": "se.kth.castor.types.UseAnno", "usedElements": [
+			"<init>()"
+		]}
+	]},
+	{"className": "se.kth.castor.user.ImplInterSimpleDecl1", "uses": [
+		{ "usedType": "se.kth.castor.types.Helper", "usedElements": [
+			"myPublicImplInter"
+		]}
+	]},
+	{"className": "se.kth.castor.user.ImplInterSimpleDecl0", "uses": [
+		{ "usedType": "se.kth.castor.types.Helper", "usedElements": [
+			"publicImplInter()"
+		]}
+	]},
+	{"className": "se.kth.castor.user.AbsSimpleCall0", "uses": [
+		{ "usedType": "se.kth.castor.types.Helper", "usedElements": [
+			"publicAbs()"
+		]},
+		{ "usedType": "se.kth.castor.types.Abs", "usedElements": [
+			"defString()"
+		]}
+	]},
+	{"className": "se.kth.castor.user.InterSimpleCall0", "uses": [
+		{ "usedType": "se.kth.castor.types.Inter", "usedElements": [
+			"getString()"
+		]},
+		{ "usedType": "se.kth.castor.types.Helper", "usedElements": [
+			"publicInter()"
+		]}
+	]},
+	{"className": "se.kth.castor.user.InterSimpleCall2", "uses": [
+		{ "usedType": "se.kth.castor.types.Inter", "usedElements": [
+			"getInter()"
+		]},
+		{ "usedType": "se.kth.castor.types.Helper", "usedElements": [
+			"publicInter()"
+		]}
+	]},
+	{"className": "se.kth.castor.user.InterSimpleCall1", "uses": [
+		{ "usedType": "se.kth.castor.types.Inter", "usedElements": [
+			"getAbs()"
+		]},
+		{ "usedType": "se.kth.castor.types.Helper", "usedElements": [
+			"publicInter()"
+		]}
+	]},
+	{"className": "se.kth.castor.user.AbsSimpleCall3", "uses": [
+		{ "usedType": "se.kth.castor.types.Helper", "usedElements": [
+			"publicAbs()"
+		]},
+		{ "usedType": "se.kth.castor.types.Abs", "usedElements": [
+			"absAbs()"
+		]}
+	]},
+	{"className": "se.kth.castor.user.InterSimpleCall4", "uses": [
+		{ "usedType": "se.kth.castor.types.Helper", "usedElements": [
+			"publicInter()"
+		]}
+	]},
+	{"className": "se.kth.castor.user.AbsSimpleCall4", "uses": [
+		{ "usedType": "se.kth.castor.types.Helper", "usedElements": [
+			"publicAbs()"
+		]},
+		{ "usedType": "se.kth.castor.types.Abs", "usedElements": [
+			"defInter()"
+		]}
+	]},
+	{"className": "se.kth.castor.user.InterSimpleCall3", "uses": [
+		{ "usedType": "se.kth.castor.types.Inter", "usedElements": [
+			"getConcrete()"
+		]},
+		{ "usedType": "se.kth.castor.types.Helper", "usedElements": [
+			"publicInter()"
+		]}
+	]},
+	{"className": "se.kth.castor.user.AbsSimpleCall1", "uses": [
+		{ "usedType": "se.kth.castor.types.Helper", "usedElements": [
+			"publicAbs()"
+		]},
+		{ "usedType": "se.kth.castor.types.Abs", "usedElements": [
+			"absString()"
+		]}
+	]},
+	{"className": "se.kth.castor.user.AbsSimpleCall2", "uses": [
+		{ "usedType": "se.kth.castor.types.Helper", "usedElements": [
+			"publicAbs()"
+		]},
+		{ "usedType": "se.kth.castor.types.Abs", "usedElements": [
+			"defAbs()"
+		]}
+	]},
+	{"className": "se.kth.castor.user.AbsSimpleCall7", "uses": [
+		{ "usedType": "se.kth.castor.types.Helper", "usedElements": [
+			"publicAbs()"
+		]},
+		{ "usedType": "se.kth.castor.types.Abs", "usedElements": [
+			"absImplInter()"
+		]}
+	]},
+	{"className": "se.kth.castor.user.AbsSimpleCall8", "uses": [
+		{ "usedType": "se.kth.castor.types.Helper", "usedElements": [
+			"publicAbs()"
+		]}
+	]},
+	{"className": "se.kth.castor.user.AbsSimpleCall5", "uses": [
+		{ "usedType": "se.kth.castor.types.Helper", "usedElements": [
+			"publicAbs()"
+		]},
+		{ "usedType": "se.kth.castor.types.Abs", "usedElements": [
+			"absInter()"
+		]}
+	]},
+	{"className": "se.kth.castor.user.AbsSimpleCall6", "uses": [
+		{ "usedType": "se.kth.castor.types.Helper", "usedElements": [
+			"publicAbs()"
+		]},
+		{ "usedType": "se.kth.castor.types.Abs", "usedElements": [
+			"defImplInter()"
+		]}
+	]},
+	{"className": "se.kth.castor.user.ImplAbsParam4", "uses": [
+		{ "usedType": "se.kth.castor.types.Abs", "usedElements": [
+			"defInter()"
+		]}
+	]},
+	{"className": "se.kth.castor.user.AbsReturn2", "uses": [
+		{ "usedType": "se.kth.castor.types.Helper", "usedElements": [
+			"myPublicAbs"
+		]}
+	]},
+	{"className": "se.kth.castor.user.AbsReturn1", "uses": [
+		{ "usedType": "se.kth.castor.types.Helper", "usedElements": [
+			"publicImplAbs()"
+		]}
+	]},
+	{"className": "se.kth.castor.user.ImplAbsParam5", "uses": [
+		{ "usedType": "se.kth.castor.types.ImplAbs", "usedElements": [
+			"absInter()"
+		]}
+	]},
+	{"className": "se.kth.castor.user.ImplAbsParam2", "uses": [
+		{ "usedType": "se.kth.castor.types.Abs", "usedElements": [
+			"defAbs()"
+		]}
+	]},
+	{"className": "se.kth.castor.user.AbsReturn4", "uses": [
+		{ "usedType": "se.kth.castor.types.ImplAbs", "usedElements": [
+			"<init>()"
+		]}
+	]},
+	{"className": "se.kth.castor.user.AbsReturn3", "uses": [
+		{ "usedType": "se.kth.castor.types.Helper", "usedElements": [
+			"myPublicImplAbs"
+		]}
+	]},
+	{"className": "se.kth.castor.user.ImplAbsParam3", "uses": [
+		{ "usedType": "se.kth.castor.types.ImplAbs", "usedElements": [
+			"absAbs()"
+		]}
+	]},
+	{"className": "se.kth.castor.user.ObjectReturn7", "uses": [
+		{ "usedType": "se.kth.castor.types.ImplInter", "usedElements": [
+			"<init>()",
+			"getAbs()"
+		]}
+	]},
+	{"className": "se.kth.castor.user.AbsReturn6", "uses": [
+		{ "usedType": "se.kth.castor.types.ImplAbs", "usedElements": [
+			"<init>()",
+			"absAbs()"
+		]}
+	]},
+	{"className": "se.kth.castor.user.AbsReturn5", "uses": [
+		{ "usedType": "se.kth.castor.types.Abs", "usedElements": [
+			"defAbs()"
+		]},
+		{ "usedType": "se.kth.castor.types.ImplAbs", "usedElements": [
+			"<init>()"
+		]}
+	]},
+	{"className": "se.kth.castor.user.ObjectReturn6", "uses": [
+		{ "usedType": "se.kth.castor.types.ImplAbs", "usedElements": [
+			"<init>()",
+			"absAbs()"
+		]}
+	]},
+	{"className": "se.kth.castor.user.ImplAbsParam6", "uses": [
+		{ "usedType": "se.kth.castor.types.Abs", "usedElements": [
+			"defImplInter()"
+		]}
+	]},
+	{"className": "se.kth.castor.user.AbsReturn7", "uses": [
+		{ "usedType": "se.kth.castor.types.ImplInter", "usedElements": [
+			"<init>()",
+			"getAbs()"
+		]}
+	]},
+	{"className": "se.kth.castor.user.ImplAbsParam7", "uses": [
+		{ "usedType": "se.kth.castor.types.ImplAbs", "usedElements": [
+			"absImplInter()"
+		]}
+	]},
+	{"className": "se.kth.castor.user.ObjectReturn3", "uses": [
+		{ "usedType": "se.kth.castor.types.Helper", "usedElements": [
+			"myPublicImplAbs"
+		]}
+	]},
+	{"className": "se.kth.castor.user.ObjectReturn2", "uses": [
+		{ "usedType": "se.kth.castor.types.Helper", "usedElements": [
+			"myPublicAbs"
+		]}
+	]},
+	{"className": "se.kth.castor.user.UseAnnoSimpleCall0", "uses": [
+		{ "usedType": "se.kth.castor.types.UseAnno", "usedElements": [
+			"<init>()"
+		]}
+	]},
+	{"className": "se.kth.castor.user.ObjectReturn5", "uses": [
+		{ "usedType": "se.kth.castor.types.Abs", "usedElements": [
+			"defAbs()"
+		]},
+		{ "usedType": "se.kth.castor.types.ImplAbs", "usedElements": [
+			"<init>()"
+		]}
+	]},
+	{"className": "se.kth.castor.created.UseAnno", "uses": [
+		{ "usedType": "se.kth.castor.types.Anno", "usedElements": [
+			"class",
+			"getString()"
+		]}
+	]},
+	{"className": "se.kth.castor.user.ObjectReturn4", "uses": [
+		{ "usedType": "se.kth.castor.types.ImplAbs", "usedElements": [
+			"<init>()"
+		]}
+	]},
+	{"className": "se.kth.castor.user.ImplAbsParam0", "uses": [
+		{ "usedType": "se.kth.castor.types.Abs", "usedElements": [
+			"defString()"
+		]}
+	]},
+	{"className": "se.kth.castor.user.ImplAbsParam1", "uses": [
+		{ "usedType": "se.kth.castor.types.ImplAbs", "usedElements": [
+			"absString()"
+		]}
+	]},
+	{"className": "se.kth.castor.user.ObjectReturn1", "uses": [
+		{ "usedType": "se.kth.castor.types.Helper", "usedElements": [
+			"publicImplAbs()"
+		]}
+	]},
+	{"className": "se.kth.castor.user.ObjectReturn0", "uses": [
+		{ "usedType": "se.kth.castor.types.Helper", "usedElements": [
+			"publicAbs()"
+		]}
+	]},
+	{"className": "se.kth.castor.user.AbsReturn0", "uses": [
+		{ "usedType": "se.kth.castor.types.Helper", "usedElements": [
+			"publicAbs()"
+		]}
+	]}
+]
