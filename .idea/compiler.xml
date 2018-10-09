@@ -9,8 +9,5 @@
         <module name="Dep-analyzer" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="Dep-analyzer" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
 </project>
