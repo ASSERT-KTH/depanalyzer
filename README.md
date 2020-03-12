@@ -1,3 +1,5 @@
+<img src="https://cesarsotovalero.github.io/img/logos/DepAnalyzer_logo.svg" height="100px"  alt="DepAnalyzer"/>
+
 [![Build Status](https://travis-ci.org/castor-software/dep-analyzer.svg?branch=master)](https://travis-ci.org/castor-software/dep-analyzer)
 
 ### What is DepAnalyzer?
