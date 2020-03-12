@@ -14,7 +14,8 @@ import java.util.jar.JarFile;
 
 public class Instrumenter {
 
-    private static TreeMap<String, List<DependencyTree>> methodsCalled;
+    public static TreeMap<String, List<DependencyTree>> methodsCalled;
+    public static DependencyTree dt = new DependencyTree();
 
     public Instrumenter() {
         this.methodsCalled = new TreeMap<>();
@@ -39,11 +40,12 @@ public class Instrumenter {
     public static void printDependencies(String pathToJar, String dependencyPkg) throws IOException {
         JarFile jarFile = new JarFile(new File(pathToJar));
         Enumeration<JarEntry> entries = jarFile.entries();
+        //DependencyTree dt = new DependencyTree();
         while (entries.hasMoreElements()) {
             JarEntry entry = entries.nextElement();
             String entryName = entry.getName();
             if (entryName.endsWith(".class")) {
-                DependencyTree dt = new DependencyTree();
+                //DependencyTree dt = new DependencyTree();
                 InputStream classFileInputStream = jarFile.getInputStream(entry);
                 try {
                     ClassReader cr = new ClassReader(classFileInputStream);
@@ -54,20 +56,20 @@ public class Instrumenter {
                     classFileInputStream.close();
                 }
 
-                if (!methodsCalled.containsKey(entryName)) {
+                /*if (!methodsCalled.containsKey(entryName)) {
                     List list = new ArrayList<DependencyTree>();
                     list.add(dt);
                     methodsCalled.put(entryName, list);
                 } else if (methodsCalled.containsKey(entryName)) {
                     methodsCalled.get(entryName).add(dt);
-                }
-
-                if (!dt.getDependencies().isEmpty()) {
-                    System.out.println("Class: " + entryName);
-                    dt.printDependencyTree();
-                }
+                }*/
 
             }
+        }
+
+        if (!dt.getDependencies().isEmpty()) {
+            System.out.println("Usage of " + dependencyPkg + " by " + pathToJar);
+            dt.printDependencyTree();
         }
     }
 
