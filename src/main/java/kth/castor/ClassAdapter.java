@@ -4,7 +4,7 @@ import org.objectweb.asm.ClassVisitor;
 import org.objectweb.asm.MethodVisitor;
 import org.objectweb.asm.Opcodes;
 
-class ClassAdapter extends ClassVisitor implements Opcodes {
+public class ClassAdapter extends ClassVisitor implements Opcodes {
 
     String dependencyName;
     DependencyTree dt;

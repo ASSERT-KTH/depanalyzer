@@ -27,7 +27,7 @@ public class InstrumenterTest {
 
     @Test
     public void checkThatIsNotNull() throws IOException {
-        inst.printDependencies("src/main/resources/descartes-1.2.4.jar", "org/pitest");
+        inst.printDependencies("src/main/resources/weka-stable-3.8.3-SNAPSHOT-jar-with-dependencies.jar", "org/apache/commons");
         assertNotNull(inst.getMethodsCalled());
     }
 
@@ -156,3 +156,4 @@ public class InstrumenterTest {
         }
     }
 }
+
